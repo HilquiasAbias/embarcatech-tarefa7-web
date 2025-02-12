@@ -12,4 +12,8 @@ start:
 deploy: git-pull start
 
 cd:
+<<<<<<< HEAD
 	ssh root@200.137.2.7 'cd /var/embarcatech && make deploy'
+=======
+	ssh root@200.137.2.7 'cd /var/embarcatech && make deploy'
+>>>>>>> cb513cc062069123b1356b6ad342df1328cde51c
